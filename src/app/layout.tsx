@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   authors: [{ name: "Maheer Nasir" }],
   viewport: "width=device-width, initial-scale=1",
   icons: {
-    icon: "/ADWORKSBYMAHEERLOGO.jpeg",
+    icon: "/ADWORKSLOGO.png",
   },
 };
 
