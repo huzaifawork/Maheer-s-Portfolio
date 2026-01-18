@@ -80,7 +80,7 @@ const Hero = () => {
             >
               <div className="absolute inset-0 bg-gradient-to-tr from-primary to-accent rounded-[2rem] blur-2xl opacity-20 animate-pulse" />
               <Image
-                src="/maheer.jpeg"
+                src="/maheerpicture.jpeg"
                 alt="Maheer Nasir"
                 fill
                 className="object-cover rounded-[2rem] shadow-2xl ring-1 ring-white/10"
