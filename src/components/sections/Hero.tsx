@@ -73,19 +73,22 @@ const Hero = () => {
             animate="visible"
           >
             <motion.div
-              className="relative w-72 h-72 md:w-[500px] md:h-[500px]"
+              className="relative w-full max-w-[400px]"
               variants={itemVariants}
               whileHover={{ scale: 1.02 }}
               transition={{ duration: 0.3 }}
             >
               <div className="absolute inset-0 bg-gradient-to-tr from-primary to-accent rounded-[2rem] blur-2xl opacity-20 animate-pulse" />
-              <Image
-                src="/maheerpicture.jpeg"
-                alt="Maheer Nasir"
-                fill
-                className="object-cover rounded-[2rem] shadow-2xl ring-1 ring-white/10"
-                priority
-              />
+              <div className="relative rounded-[2rem] shadow-2xl ring-1 ring-white/10 overflow-hidden">
+                <Image
+                  src="/maheernasir.JPG"
+                  alt="Maheer Nasir"
+                  width={400}
+                  height={500}
+                  className="w-full h-auto object-cover"
+                  priority
+                />
+              </div>
             </motion.div>
           </motion.div>
 
