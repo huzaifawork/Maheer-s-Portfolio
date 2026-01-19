@@ -73,7 +73,7 @@ const Hero = () => {
             animate="visible"
           >
             <motion.div
-              className="relative w-full max-w-[400px]"
+              className="relative w-full max-w-[350px]"
               variants={itemVariants}
               whileHover={{ scale: 1.02 }}
               transition={{ duration: 0.3 }}
@@ -83,8 +83,9 @@ const Hero = () => {
                 <Image
                   src="/heropicture.jpeg"
                   alt="Maheer Nasir"
-                  width={400}
-                  height={500}
+                  width={700}
+                  height={900}
+                  quality={100}
                   className="w-full h-auto object-cover"
                   priority
                 />
